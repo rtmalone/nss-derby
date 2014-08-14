@@ -1,6 +1,6 @@
 ## name of project
 ### Code Badges
-build status icon
+[![Build Status](https://travis-ci.org/rtmalone/nss-derby.svg?branch=master)](https://travis-ci.org/rtmalone/nss-derby)
 [![Coverage Status](https://img.shields.io/coveralls/rtmalone/nss-derby.svg)](https://coveralls.io/r/rtmalone/nss-derby)
 
 ### About
