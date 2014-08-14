@@ -1,0 +1,27 @@
+{
+  "name":"Tyler",
+  "spouse":{"name":"Courtney", "photo":"http://www.themoviemind.com/wp-content/uploads/2013/04/The-Gambler.jpg"},
+  "photo":"http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Gambler71.jpg/220px-Gambler71.jpg",
+  "cash":"10000",
+  "assets":[{"name":"car", "photo":"http://www.clipartbest.com/cliparts/bcy/n7E/bcyn7EBcL.jpeg", "value":500},
+            {"name":"house", "photo":"https://s3.amazonaws.com/thunderclap-production/authorizations/ssl_profile_images/000/214/957/original/open-uri20140320-23500-8x4s8d?1395325061", "value":100}],
+  "results":{"wins":2, "losses":20}
+}
+{
+  "name":"Nathan",
+  "spouse":{"name":"Jessica", "photo":"http://www.themoviemind.com/wp-content/uploads/2013/04/The-Gambler.jpg"},
+  "photo":"http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Gambler71.jpg/220px-Gambler71.jpg",
+  "cash":"20000",
+  "assets":[{"name":"car", "photo":"http://www.clipartbest.com/cliparts/bcy/n7E/bcyn7EBcL.jpeg", "value":600},
+            {"name":"house", "photo":"https://s3.amazonaws.com/thunderclap-production/authorizations/ssl_profile_images/000/214/957/original/open-uri20140320-23500-8x4s8d?1395325061", "value":400}],
+  "results":{"wins":5, "losses":5}
+}
+{
+  "name":"Dad",
+  "spouse":{"name":"Mom", "photo":"http://www.themoviemind.com/wp-content/uploads/2013/04/The-Gambler.jpg"},
+  "photo":"http://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Gambler71.jpg/220px-Gambler71.jpg",
+  "cash":"30000",
+  "assets":[{"name":"car", "photo":"http://www.clipartbest.com/cliparts/bcy/n7E/bcyn7EBcL.jpeg", "value":500},
+            {"name":"house", "photo":"https://s3.amazonaws.com/thunderclap-production/authorizations/ssl_profile_images/000/214/957/original/open-uri20140320-23500-8x4s8d?1395325061", "value":5100}],
+  "results":{"wins":23, "losses":200}
+}
