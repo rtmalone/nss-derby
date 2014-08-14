@@ -1,5 +1,5 @@
 {
-  "name": "NSS Derby",
+  "name": "NSSDerby",
   "version": "0.0.0",
   "description": "Node.js/Express Derby test",
   "main": "app/index.js",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "mocha test --recursive -R spec",
-    "watch": "mocha test --recursive -R spec --watch",
+    "watch": "mocha test --recursive -R spec --watch --timeout 10000",
     "syntax": "./node_modules/grunt-cli/bin/grunt build",
     "coveralls": "mocha test --recursive -r blanket -R mocha-lcov-reporter | coveralls"
   },

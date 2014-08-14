@@ -1,0 +1,19 @@
+extends ../shared/template
+block content
+  h2 Gamblers!
+
+  #gamblers
+    each gambler in gamblers
+      .gambler
+        .name= gambler.name
+        .photo(style='background-image:url(#{gambler.photo});')
+        .spouseName= gambler.spouse.name
+        .photo(style='background-image:url(#{gambler.spouse.photo});')
+        .assets
+          ul
+            each asset in gambler.assets
+              li= asset.name
+              li= asset.value
+
+block scripts
+  script(src='/js/user/home.js')

@@ -6,7 +6,23 @@
 }
 
 body{
-  background-image: url(/img/node.png);
-  background-size: cover;
 }
 
+.gambler{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: cadetblue;
+}
+
+.gambler .photo{
+  position: relative;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #111111;
+  margin-bottom: 10px;
+}
